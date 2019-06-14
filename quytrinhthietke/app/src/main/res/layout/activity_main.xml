@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:background="#dcdde1"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <TextView android:id="@+id/textViewNoiDung"
+        android:layout_width="match_parent"
+        android:layout_height="69dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginStart="60dp"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="106dp"
+        android:layout_marginEnd="63dp"
+        android:layout_marginRight="63dp"
+        android:gravity="center"
+        android:text="TextView"
+        android:textColor="#eb4d4b"
+        android:textSize="30sp" />
+
+    <Button
+        android:id="@+id/buttonClick"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginStart="67dp"
+        android:layout_marginLeft="67dp"
+        android:layout_marginTop="67dp"
+        android:background="#30336b"
+        android:gravity="center"
+        android:text="Click me"
+        android:textAllCaps="false"
+        android:textColor="#f5f6fa"
+        android:textSize="30sp" />
+
+    <EditText
+        android:drawableLeft="@drawable/icon_user"
+        android:textSize="25sp"
+        android:textColor="@color/colorAccent"
+        android:hint="nhập họ và tên"
+        android:id="@+id/content"
+        android:layout_width="match_parent"
+        android:layout_height="62dp"
+        android:layout_below="@+id/textViewNoiDung"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginStart="66dp"
+        android:layout_marginLeft="66dp"
+        android:layout_marginTop="52dp"
+        android:layout_marginEnd="70dp"
+        android:layout_marginRight="70dp"
+        android:ems="10"
+        android:inputType="textPersonName" />
+
+    <Button
+        android:id="@+id/btnGetContent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="68dp"
+        android:layout_marginEnd="76dp"
+        android:layout_marginRight="76dp"
+        android:background="#4cd137"
+        android:text="lấy content"
+        android:textColor="#f5f6fa" />
+
+</RelativeLayout>
