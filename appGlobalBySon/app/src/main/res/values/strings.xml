@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">appGlobalBySon</string>
+    <string name="title">information form</string>
+    <string name="fullName">input full name</string>
+    <string name="email">input email</string>
+    <string name="phone">input phone number</string>
+    <string name="btn">Confirm</string>
+    <string name="show_hello">Hello</string>
+    <string name="show_email" translatable="false">Email</string>
+    <string name="show_phone">Phone number</string>
+</resources>

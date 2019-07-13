@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <ImageView
+        android:padding="10dp"
+        android:id="@+id/imageFruit"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_width="140dp"
+        android:layout_height="140dp" />
+    <TextView
+        android:id="@+id/nameFruit"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="10dp"
+        android:textColor="#be2edd"
+        android:textStyle="bold"
+        android:textSize="24sp"
+        android:layout_toRightOf="@id/imageFruit"
+        android:text="name fruit"
+        android:layout_alignParentTop="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/descriptionFruit"
+        android:textColor="#30336b"
+        android:textSize="18sp"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="15dp"
+        android:text="description fruit"
+        android:layout_below="@id/nameFruit"
+        android:layout_toRightOf="@id/imageFruit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+</RelativeLayout>

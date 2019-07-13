@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">appGlobalBySon</string>
+    <string name="btn">Confirm</string>
+    <string name="fullName">input full name</string>
+    <string name="email">input email</string>
+    <string name="phone">input phone number</string>
+    <string name="title">information form</string>
+    <string name="show_hello">Hello</string>
+    <string name="show_phone">Phone number</string>
+</resources>

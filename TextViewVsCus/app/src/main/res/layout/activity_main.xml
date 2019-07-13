@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <TextView
+        android:id="@+id/textView1"
+        android:hint="noi dung la gi? hien thi khi text = null (rong)"
+        android:textAllCaps="true"
+        android:drawablePadding="20dp"
+        android:paddingRight="20dp"
+        android:paddingLeft="20dp"
+        android:drawableRight="@drawable/icocus"
+        android:drawableLeft="@mipmap/ic_launcher"
+        android:gravity="center"
+        android:background="#bdc3c7"
+        android:textSize="20sp"
+        android:text="Welcome to Tran Son Mac's"
+        android:layout_width="match_parent"
+        android:layout_height="100dp" />
+</LinearLayout>

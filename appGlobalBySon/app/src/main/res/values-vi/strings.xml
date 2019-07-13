@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">appGlobalBySon</string>
+    <string name="btn">Xác nhận</string>
+    <string name="email">Nhập email</string>
+    <string name="fullName">Nhập họ tên</string>
+    <string name="phone">Nhập số điện thoại</string>
+    <string name="title">Phiếu thông tin</string>
+    <string name="show_hello">Xin chào</string>
+    <string name="show_phone">số điện thoại</string>
+</resources>
